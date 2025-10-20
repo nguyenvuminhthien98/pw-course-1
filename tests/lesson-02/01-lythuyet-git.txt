@@ -1,0 +1,4 @@
+- git init: Khởi tạo quản lý git cho cho repo tạo mới
+- git add <file_name>: add file chỉ định vào staging area
+- git add .: add tất cả các dữ liệu tạo mới hoặc có thay đổi
+- git commit -m "message": tạo commit cho các phiên bản mới. Đưa các file có trong staging area vào repository

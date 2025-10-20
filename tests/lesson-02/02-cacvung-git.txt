@@ -1,0 +1,21 @@
+a. Tạo 3 file: file1, file2, file3
+=> file1, file2, file3 Nằm trong vùng local
+
+b. Chạy lệnh: git init
+=> file1, file2, file3 Nằm trong vùng working directory
+
+c. Chạy lệnh: git commit -m”init project”
+=> Sẽ bị báo lỗi vì chưa add các file vào staging area
+
+d. Chạy lệnh: git add file1
+=> file1 nằm trong vùng staging area.
+=> file2, file 3 nằm trong vùng working directory.
+
+e. Chạy lệnh: git commit -m”add file1”
+=> file1 được thêm trong vùng repository.
+=> file2, file 3 nằm trong vùng working directory.
+
+f. Chạy lệnh: git commit -m”add file”
+=> file 1 đã được thêm vào repository từ bước e.
+=> file2, file 3 nằm trong vùng working directory.
+=> Sẽ bị báo lỗi vì không có file nào nằm trong vùng staging area
