@@ -1,0 +1,11 @@
+1. git commit --amend
+=> Mở text editor dể chỉnh sửa commit, có thể thay đổi nhiều dòng
+
+2. git commit --amend -m”<message>”
+=> Thay đổi message commit trước đó trực tiếp (không mở text editor)
+
+3. git restore --staged <file>
+=> Bỏ snapshot file lịch sử thay đổi (file được chỉ định) đã được add vào staging area
+
+4. git reset HEAD~1
+=> Quay lại commit trước đó trong repository
