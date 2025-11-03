@@ -37,10 +37,39 @@
     <option value="usa">United States</option>
     ```
     - Một số thẻ tự đóng: `<img />`, `<br />`, `<hr />`
-- **Thuộc tính tiêu chuẩn HTML:**
-  - Thẻ cấu trúc: `<html>`, `<head>`, `<body>`, `<div>`, `<span>`, `<header>`, `<footer>`, `<nav>`, `<section>`
-  - Thẻ nội dung: `<h1>…<h6>`, `<p>`, `<a>`, `<img>`, `<ul>`, `<ol>`, `<li>`
-  - Thẻ form: `<form>`, `<input>`, `<button>`, `<select>`, `<option>`, `<textarea>`
+
+## Các thẻ HTML tiêu chuẩn thường gặp & chức năng
+
+### Thẻ cấu trúc cơ bản (Structure tags)
+- `<html>`: Thẻ gốc - bao trọn toàn bộ nội dung trang web.
+- `<head>`: Chứa thông tin cấu hình và metadata cho website (tiêu đề, mô tả, script, style).
+- `<body>`: Chứa nội dung hiển thị trên trình duyệt.
+- `<div>`: Container dùng để nhóm các phần tử, chia layout, không có ý nghĩa ngữ nghĩa riêng.
+- `<span>`: Container inline để nhóm hoặc định dạng một phần nhỏ trong dòng text.
+- `<header>`: Phần đầu của trang, thường chứa logo, menu, tiêu đề.
+- `<footer>`: Phần cuối trang, thường chứa bản quyền, thông tin liên hệ, link phụ.
+- `<nav>`: Dùng để bao quanh menu điều hướng của website.
+- `<section>`: Phân chia thành từng khu vực có nội dung riêng.
+
+### Thẻ nội dung (Content tags)
+- `<h1>`–`<h6>`: Các cấp tiêu đề, từ quan trọng nhất (`<h1>`) đến kém quan trọng nhất (`<h6>`).
+- `<p>`: Thẻ đoạn văn bản, dùng cho nội dung text.
+- `<a>`: Tạo liên kết/hyperlink tới trang khác hoặc tải file.
+- `<img>`: Chèn hình ảnh vào trang web.
+- `<ul>`: Tạo danh sách không thứ tự (bullet points).
+- `<ol>`: Tạo danh sách có thứ tự (số thứ tự).
+- `<li>`: Một mục trong danh sách (`ul` hoặc `ol`).
+
+### Thẻ form (Quan trọng cho testing)
+- `<form>`: Tạo biểu mẫu nhập liệu, thường dùng để submit thông tin lên server.
+- `<input>`: Ô nhập liệu (text, password, checkbox, radio, email,...).
+- `<button>`: Tạo nút bấm (submit hoặc action khác).
+- `<select>`: Tạo dropdown list (danh sách lựa chọn).
+- `<option>`: Mục trong dropdown (`select`), mỗi option là một lựa chọn.
+- `<textarea>`: Vùng nhập văn bản nhiều dòng (content dài).
+
+---
+
 - **Demo HTML DOM tại:** https://material.playwrightvn.com/035-DOM-elements.html
 
 ---
